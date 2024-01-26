@@ -412,8 +412,10 @@ main {
 }
 .footer-container {
   display: flex;
-  justify-content: space-between;
   align-items: baseline;
+}
+.footer-description {
+  margin-right: 120px;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -434,6 +436,9 @@ main {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 400;
+}
+.footer-social {
+  margin-right: 80px;
 }
 .social-item {
   margin-bottom: 16px;
@@ -478,7 +483,6 @@ main {
   margin-bottom: 16px;
 }
 .subscribe-input {
-  margin-right: 24px;
   max-width: 100%;
   width: 264px;
   height: 40px;
@@ -596,7 +600,7 @@ main {
 }
 .modal-text {
   text-align: center;
-  margin: 24px 0 16px 0;
+  margin-bottom:16px;
   color: var(--secondary-text-color);
   font-weight: 500;
   line-height: 1.5;
